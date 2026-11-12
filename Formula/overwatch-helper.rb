@@ -1,16 +1,16 @@
 class OverwatchHelper < Formula
   desc "Local agent for the Overwatch incident-resolution Chrome extension"
   homepage "https://www.overwatch-observability.com"
-  version "0.8.9"
+  version "0.8.10"
 
   on_macos do
     on_arm do
       url "https://packages.buildkite.com/overwatchobs/overwatch-files/files/overwatch-helper-macos-arm64-#{version}.tar.gz"
-      sha256 "b0096b856a588c7b19af5d5dcc7c3bd98dbd2115c8ed23af6cc18e435b2bad8a"
+      sha256 "76184e0b388be08019cb01ca972e92775c7d48b5890b098086042919787b6ad1"
     end
     on_intel do
       url "https://packages.buildkite.com/overwatchobs/overwatch-files/files/overwatch-helper-macos-amd64-#{version}.tar.gz"
-      sha256 "1914c537418b578c60d5367fe7999b71ccbd1b3f5359cc0967b651f1901eb41f"
+      sha256 "c13f0bb70ab61c3aeb4132f662dffee19f8378700e2f9eab676cd800bcf549a7"
     end
   end
 
